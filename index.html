@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Rafael Muhamad Pusbafian</title>
+
+  <!-- LINK CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#profile">Profile</a>
+  <a href="#projek">Projek</a>
+  <a href="#media">Media</a>
+  <a href="#skills">Keahlian</a>
+  <a href="#kontak">Kontak</a>
+</nav>
+
+<section id="home">
+  <h1>Hi, Saya Rafael Muhamad Pusbafian</h1>
+  <p>Mahasiswa Sistem Informasi 📍 Fokus belajar Web Development & UI/UX Design</p>
+  <a class="button" href="#kontak">Hubungi Saya</a>
+  <a class="button" href="#projek">Lihat Projek</a>
+</section>
+
+<section id="profile">
+  <img src="naya2.jpg" alt="Foto Rafael">
+  <h2>Tentang Saya</h2>
+  <p>
+    Nama saya Rafael Muhamad Pusbafian, mahasiswa jurusan Sistem Informasi.
+    Saya tertarik pada pengembangan web, basis data, dan teknologi.
+    Saya senang membuat desain kreatif dan membangun website interaktif.
+  </p>
+</section>
+
+<section id="projek">
+  <h2 style="text-align:center;">Project</h2>
+  <div class="project-wrapper">
+    <img src="c:\Users\rafael\OneDrive\Gambar\wp1944798.jpg">
+    <img src="portal news.jpg">
+    <img src="Screenshot (206).png">
+    <img src="Screenshot (207).png">
+    <img src="Screenshot (208).png">
+    <img src="Screenshot (210).png">
+  </div>
+</section>
+
+<section id="media">
+  <h2>Media</h2>
+  <div class="grid">
+    <img src="nayla.jpg" onclick="openLightbox(this.src)">
+    <img src="naya2.jpg" onclick="openLightbox(this.src)">
+    <img src="naya.jpg" onclick="openLightbox(this.src)">
+  </div>
+</section>
+
+<h3 style="text-align:center;">Video</h3>
+<div class="center">
+  <video controls>
+    <source src="video nayla.mp4" type="video/mp4">
+  </video>
+</div>
+
+<h3 style="text-align:center;">Audio</h3>
+<div class="center">
+  <audio controls>
+    <source src="lagu.mp3" type="audio/mpeg">
+  </audio>
+</div>
+
+<section id="skills" class="skills-section">
+  <h2>Skills</h2>
+  <div class="skills-buttons">
+    <button class="skill-btn active" onclick="showSkill('html')">HTML</button>
+    <button class="skill-btn" onclick="showSkill('css')">CSS</button>
+    <button class="skill-btn" onclick="showSkill('bootstrap')">Bootstrap</button>
+    <button class="skill-btn" onclick="showSkill('js')">JavaScript</button>
+  </div>
+  <p id="skillText">Saya mampu membuat struktur halaman website menggunakan HTML.</p>
+</section>
+
+<section id="kontak">
+  <h2>Kontak</h2>
+  <p>Email: rafael@gmail.com</p>
+  <p>WhatsApp: +62xxxxxxxxxx</p>
+</section>
+
+<footer>
+  <p>© 2026 Rafael Muhamad Pusbafian | Sistem Informasi</p>
+</footer>
+
+<!-- LINK JS -->
+<script src="script.js"></script>
+</body>
+</html>
